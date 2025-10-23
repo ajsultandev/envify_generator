@@ -1,0 +1,22 @@
+name: envify_generator
+description: Code generator for envify, a better tool to handle environment variables.
+version: 2.0.3
+homepage: https://github.com/ajsultandev/envify_generator
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  analyzer: ^6.7.0
+  build: ^2.4.1
+  dotenv: ^4.2.0
+  envify: ^2.0.3
+  path: ^1.9.0
+  source_gen: ^1.5.0
+
+dev_dependencies:
+  lint: ^2.3.0
+  source_gen_test: ^1.0.6
+  test: ^1.25.2
+
+scripts: ../derry.yaml
